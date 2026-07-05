@@ -1,1 +1,34 @@
+body {
+  background: white;
+  font-family: Arial, sans-serif;
+  color: black;
+  text-align: center;
+}
 
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 40px;
+}
+
+.portrait {
+  width: 250px;
+  height: auto;
+  object-fit: contain;
+  border: 2px solid #f2c94c;
+}
+
+a {
+  display: block;
+  margin: 15px 0;
+  padding: 15px;
+  border: 2px solid #f2c94c;
+  color: black;
+  text-decoration: none;
+}
+
+.background-logo img {
+  opacity: 0.05;
+  width: 600px;
+  position: fixed;
+}
